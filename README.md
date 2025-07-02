@@ -63,11 +63,6 @@ The model can be trained in under 5 minutes on a Kaggle GPU (P100) for 20 epochs
 
 The baseline model achieved low accuracy due to its shallow structure. After upgrading to a deeper CNN with better regularization and using the AdamW optimizer, validation and test accuracy improved significantly. Final performance may vary depending on dataset quality and class balance.
 
-## Future Work
-
-* Try pretrained models like ResNet for transfer learning
-* Add early stopping and learning rate scheduling
-* Save and export the trained model for inference outside of Kaggle
 
 ## License
 
